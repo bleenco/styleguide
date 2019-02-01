@@ -20,7 +20,7 @@ The **header** is mandatory and the **scope** of the header is optional.
 Any line of the commit message cannot be longer 100 characters! This allows the message to be easier
 to read on GitHub as well as in various git tools.
 
-The footer should contain a closing reference to an issue if any.
+**The footer should contain a [closing reference](https://help.github.com/articles/closing-issues-using-keywords/) to an issue if any.**
 
 Samples:
 ```
@@ -30,6 +30,8 @@ docs(changelog): update changelog to beta.5
 fix(release): need to depend on latest rxjs and zone.js
 
 The version in our package.json gets copied to the one we publish, and users need the latest of these.
+
+Closes #54
 ```
 
 ### Revert
