@@ -35,7 +35,6 @@ Before you submit your Pull Request (PR) consider the following guidelines:
     * Replace "pick" with "s" from all commits except the first. Save (:wq!).
     * Comment "#" all the commit messages except the one you want to have. You can also change the message here. Save (:wq!).
   * If you think there should be two commits, please open up another PR for the second one
-
 1. Push your branch to GitHub:
 
     ```shell
