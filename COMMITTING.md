@@ -51,18 +51,22 @@ Must be one of the following:
 * **test**: Adding missing tests or correcting existing tests
 
 ### Scope
-The scope should be the name of the npm package affected (as perceived by the person reading the changelog generated from commit messages.
+The scope should be the name of the main folder affected.
 
-The following is the list of supported scopes:
+The following is a list of supported scopes:
 
 * **api**
 * **stream**
-* **database**
+* **db**
+* **config**
+* **protobuf**
+* **rpc**
 * **router**
 * **ui**
 * **upgrade**
+* **etc...**
 
-There is currently a exception to the "use package name" rule:
+There is currently a exception to the "use folder name" rule:
 
 * none/empty string: useful for `style`, `test` and `refactor` changes that are done across all
   packages (e.g. `style: add missing semicolons`) and for docs changes that are not related to a
