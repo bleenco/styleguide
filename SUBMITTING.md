@@ -32,9 +32,10 @@ Before you submit your Pull Request (PR) consider the following guidelines:
   * If you think there should be two commits, please open up another PR for the second one
   ```shell
     git rebase -i HEAD~<number of commits>
-    # replace "pick" with "s" from all commits except the first. Save (:wq!).
-    # comment "#" all the commit messages except the one you want to have. You can also change the message it here. Save (:wq!).
-    ```
+  ```
+    * Replace "pick" with "s" from all commits except the first. Save (:wq!).
+    * Comment "#" all the commit messages except the one you want to have. You can also change the message here. Save (:wq!).
+
 1. Push your branch to GitHub:
 
     ```shell
