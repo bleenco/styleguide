@@ -1,10 +1,3 @@
-## <a name="rules"></a> Coding Rules
-To ensure consistency throughout the source code, keep these rules in mind as you are working:
-
-* All features or bug fixes **must be tested** by one or more specs (unit-tests, API tests).
-* All public API methods **must be documented**.
-* Abstruse build is green
-
 ## <a name="commit"></a> Commit Message Guidelines
 
 We have very precise rules over how our git commit messages can be formatted.  This leads to **more
@@ -64,6 +57,7 @@ The following is the list of supported scopes:
 * **stream**
 * **database**
 * **router**
+* **ui**
 * **upgrade**
 
 There is currently a exception to the "use package name" rule:

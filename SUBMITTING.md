@@ -9,9 +9,9 @@ Before you submit your Pull Request (PR) consider the following guidelines:
 
 1. Be sure that an issue describes the problem you're fixing, or documents the design for the feature you'd like to add.
   Discussing the design up front helps to ensure that we're ready to accept your work.
-1. Fork the bleenco/* repo.
+1. Fork the `bleenco/*` repo you want to work on.
 1. Clone your fork locally and name it `origin`.
-1. Add a new remote that points to the main bleenco repository and name it `upstream`
+1. Add a new remote that points to the main bleenco organisational repository and name it `upstream`
 1. Make your changes in a new git branch:
 
      ```shell
@@ -29,12 +29,12 @@ Before you submit your Pull Request (PR) consider the following guidelines:
      ```
     Note: the optional commit `-a` command line option will automatically "add" and "rm" edited files.
   * If you have more commits please squash them into one with a descriptive message.
-  * If you think there should be two commits, please open up another PR for the second one
   ```shell
     git rebase -i HEAD~<number of commits>
   ```
     * Replace "pick" with "s" from all commits except the first. Save (:wq!).
     * Comment "#" all the commit messages except the one you want to have. You can also change the message here. Save (:wq!).
+  * If you think there should be two commits, please open up another PR for the second one
 
 1. Push your branch to GitHub:
 
