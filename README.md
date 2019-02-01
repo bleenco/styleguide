@@ -7,8 +7,6 @@ The aim of this styleguide is to:
 * brief new candidates and encourage them to submit their first pull request,
 * remind current contributors what quality standard do we stand for.
 
-Here you can find the table of contents, code samples and presentations, but the content itself is going to be drafted in a wiki section of this repository.
-
 ## Table of Contents
 
 - [Committing](COMMITTING.md)
@@ -20,4 +18,4 @@ To ensure consistency throughout the source code, keep these rules in mind as yo
 
 * All features or bug fixes **must be tested** by one or more specs (unit-tests, API tests).
 * All public API methods **must be documented**.
-* Abstruse **build is green**
+* Abstruse **build must be green**
