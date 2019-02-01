@@ -60,11 +60,9 @@ The scope should be the name of the npm package affected (as perceived by the pe
 
 The following is the list of supported scopes:
 
-* **core**
-* **http**
-* **language-service**
-* **platform-browser**
-* **platform-server**
+* **api**
+* **stream**
+* **database**
 * **router**
 * **upgrade**
 
