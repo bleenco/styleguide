@@ -9,9 +9,10 @@ The aim of this styleguide is to:
 
 ## Table of Contents
 
+- [Code of Conduct](https://github.com/bleenco/code-of-conduct/blob/master/CODE_OF_CONDUCT.md)
+- [Coding](https://github.com/bleenco/bml/wiki/Coding-Style-Guidelines)
 - [Committing](COMMITTING.md)
 - [Submitting](SUBMITTING.md)
-- [Code of Conduct](https://github.com/bleenco/code-of-conduct/blob/master/CODE_OF_CONDUCT.md)
 
 ## <a name="rules"></a> Coding Rules
 To ensure consistency throughout the source code, keep these rules in mind as you are working:
